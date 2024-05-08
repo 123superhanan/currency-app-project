@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "arial", "sans-serif";
+    font-family: "Poppins", "sans-serif";
+    font-family: "Kaushan Script", "sans-serif";
+    font-family: "Great Vibes", "sans-serif";
+    font-family: "Preahvihear", "sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+.container{
+    background-color: #fff;
+    padding:2rem;
+    box-shadow: 0 0 1rem 0 black;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 60vh;
+}
+.container h2{
+text-align: center;
+font-family: "outfit", "sans-serif";
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 7px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.amount{
+font-family: "outfit", "sans-serif";
+    
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+}
+#btn{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 7px;
+    margin-top:  2rem 0 2rem 0;
+    background-color: #af4d98;
+   color: #fff;
+   cursor: pointer;
+}
+.msg{
+    text-align: center;
+    margin: 2rem;
+    background-color: #f4e4ba;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+.select-con img{
+    max-width: 2rem;
+}
+.select-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+   border: 1px solid lightgray;
+   border-radius: 0.5rem;
+   padding: 5px;
+}
+.select-con select{
+    font-size: 1rem;
+    width: auto;
+}
